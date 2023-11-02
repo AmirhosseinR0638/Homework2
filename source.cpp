@@ -218,7 +218,7 @@ void HealthProfile::showInformations()
     cout << "Patient's weight: " << getWeight() << " lbs" << endl;
     cout << "Patient's height: " << getHeight() << " in" << endl;
     cout << "Patient's birth date: " << getYearOfBirth() << '/' << getMonthOfBirth() << '/' << getDayOfBirth() << endl;
-    int userAge = getCurrentYear() - getYearOfBirth();
+    int userAge = ageCalculator(currentYear, yearOfBirth);
     cout << "Patient's age: " << userAge << " years old" << endl;
     float BMIresult = BMICalculator(weight, height);
     cout << "BMI of Patient: " << setprecision(4) << BMIresult << " KG/m^2; ";
