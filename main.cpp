@@ -20,7 +20,7 @@ int main()
     cin >> yearOfBirth;
     cout << "Enter patient's birth month: ";
     cin >> monthOfBirth;
-    cout << "ٍEnter patient's birth day: ";
+    cout << "Enter patient's birth day: ";
     cin >> dayOfBirth;
     cout << "Enter patient's weight(lb): ";
     cin >> weight;
